@@ -32,6 +32,7 @@ public class MyServer {
     }
     public void initialize(){
          server.createContext("/", new IndexHandler());
+         server.createContext("/register" , new RegisterPageHandler());
     }
     public void start(){
         server.setExecutor(threadPoolExecutor);
