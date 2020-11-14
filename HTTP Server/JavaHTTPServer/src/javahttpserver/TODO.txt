@@ -1,0 +1,4 @@
+1.  From the UI , will get two paths 
+    a. folder path , file path 
+2.  Explore the folder , if the link is 
+3.  

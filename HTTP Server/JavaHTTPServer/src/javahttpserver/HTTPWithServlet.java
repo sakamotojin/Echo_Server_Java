@@ -10,11 +10,6 @@
 
 package javahttpserver;
 
-import com.sun.net.httpserver.HttpHandler;
-import com.sun.net.httpserver.HttpServer;
-import java.io.IOException;
-import java.net.InetSocketAddress;
-
 import java.io.*;
 import java.lang.reflect.*;
 import java.net.InetSocketAddress;
@@ -26,6 +21,14 @@ import javax.servlet.http.*;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
+
+
+
+public class HTTPWithServlet{
+    
+    
+    
+}
 
 @SuppressWarnings("deprecation")
 class VerySimpleServletHttpServer {
